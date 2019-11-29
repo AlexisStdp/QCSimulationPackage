@@ -301,8 +301,8 @@ class QCChain:
     def simulate(self):
         # simulate the circuit! uses the second tracker
         self.state = self.initial_state
-        for j,_ in enumerate(q.track_gates2[0]):
-            queue = [q.track_gates2[e][j] for e in range(q.number_of_qubits)]
+        for j,_ in enumerate(self.track_gates2[0]):
+            queue = [self.track_gates2[e][j] for e in range(self.number_of_qubits)]
             app = []
             for i,g in enumerate(queue):
                 if g not in ['-','ctrl','CNOT','----']:
