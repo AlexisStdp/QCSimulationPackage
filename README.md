@@ -8,4 +8,19 @@ QChain keeps track of all gates, and one need to call .simulate to know its stat
 *QChain is also more flexible*, one can add and delete gates at any place using .add and .delq.
 Finally, QChain has a .run module which permits to launch many simulations, and a .plot option.
 
-Demonstration, the 'Hello, world!' of Quantum Computing: Creating Entangled Pairs.
+Demonstration, the 'Hello, world!' of Quantum Computing: Creating Entangled Triplets.
+
+<img src='Images/Trip1.PNG'>
+
+Notice when adding gates the default is to add them to the first qubit.
+
+We can also draw the circuit:
+
+<img src='Images/Trip2.PNG'>
+
+Finally we can run the simulation a hundred times and plot the results:
+
+<img src='Images/Trip3.PNG'>
+<img src='Images/Trip.png'>
+
+It is not clear whether this toy project will be continued. Maybe one could add higher-level modules to create for example quantum teleportation.
