@@ -26,3 +26,5 @@ Finally we can run the simulation a hundred times and plot the results:
 Check out the **Wiki** for more information on how to use the gates in the circuit, and to get started in general.
 
 It is not clear whether this toy project will be continued. Maybe one could add higher-level modules to create for example quantum teleportation.
+Another idea, would be to implement QCNoisyChain() which would simulate a Real Quantum Circuit (RQC) as opposed to an Ideal Quantum Circuit, therefore introducing some noise in the state.
+This could be useful to test some Quantum Error Correction Codes.
