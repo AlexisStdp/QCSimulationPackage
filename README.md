@@ -23,4 +23,6 @@ Finally we can run the simulation a hundred times and plot the results:
 <img src='Images/Trip3.PNG'>
 <img src='Images/Trip.png'>
 
+Check out the **Wiki** or more information on how to use the gates in the circuit, and to get started in general.
+
 It is not clear whether this toy project will be continued. Maybe one could add higher-level modules to create for example quantum teleportation.
